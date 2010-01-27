@@ -5,12 +5,6 @@
  * By Jon Gibbins, accessibility.co.uk
  */
 
-$(document).ready(function() {
-
-	var grid = new GridOverlay('grid');
-
-});
-
 
 /**
  * Grid overlay
@@ -145,3 +139,10 @@ function readCookie(name) {
 function eraseCookie(name) {
 	createCookie(name,"",-1);
 }
+
+$(document).ready(function() {
+
+	var grid = new GridOverlay('grid');
+
+});
+
